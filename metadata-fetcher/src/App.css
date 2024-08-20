@@ -1,0 +1,106 @@
+/* General styling for the app container */
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f4f4f9;
+}
+
+/* Header styling */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="url"] {
+  width: calc(100% - 120px); /* Adjust width considering the space for the Remove button */
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+}
+
+button[type="submit"]:disabled {
+  background-color: #b0bec5;
+}
+
+button[type="button"] {
+  background-color: #dc3545;
+}
+
+button[type="button"]:hover {
+  background-color: #c82333;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Error message styling */
+.error {
+  color: #dc3545;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Metadata results styling */
+.metadata-results {
+  margin-top: 20px;
+}
+
+.metadata-item {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+
+.metadata-item h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+
+.metadata-item p {
+  margin: 0 0 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.metadata-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+
+.metadata-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.metadata-item a:hover {
+  text-decoration: underline;
+}
+
